@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3308/msadb?userSSL=false&serverTimezone=UTC
     username: '{cipher}AQBaTLQiW7R2bidv1qAM//MzMu4N5oYA4tU0EKf8MoOreKOJ78hSlhO3VCnYRznpWkQbM6xhfX9O4njk/WhflehK7UQunlo1jyNNkhXrt0htc0quhbzotyQOiZWzRKEXDNxCMmNt9qqkSrJvC4zjN17MdvIeqr6t522GEljDs+InoaKONVdyogQkCjyV06tSiDflSYy/O2IZNkqijEIcM9MBEM+02CUbNqpJ5NtLPm+5AnIeevEapGFMKyPSkOtNshbX2+/SELHBvTvLGCT6mh5QY1M9sB5oU8Md2sd2EsbIpOOJ5/6fncZ5pmg7/a7XSDQtHnqdS+ElFSUZi6k4aTYi0Uz4mXplZOKqCfBmtukYjs8sMgw7OcQIjbzHzuZV2As='
     password: '{cipher}AQBaTLQiW7R2bidv1qAM//MzMu4N5oYA4tU0EKf8MoOreKOJ78hSlhO3VCnYRznpWkQbM6xhfX9O4njk/WhflehK7UQunlo1jyNNkhXrt0htc0quhbzotyQOiZWzRKEXDNxCMmNt9qqkSrJvC4zjN17MdvIeqr6t522GEljDs+InoaKONVdyogQkCjyV06tSiDflSYy/O2IZNkqijEIcM9MBEM+02CUbNqpJ5NtLPm+5AnIeevEapGFMKyPSkOtNshbX2+/SELHBvTvLGCT6mh5QY1M9sB5oU8Md2sd2EsbIpOOJ5/6fncZ5pmg7/a7XSDQtHnqdS+ElFSUZi6k4aTYi0Uz4mXplZOKqCfBmtukYjs8sMgw7OcQIjbzHzuZV2As='
-    driver-class-name: org.h2.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 token:
   expiration_time: 864000000
