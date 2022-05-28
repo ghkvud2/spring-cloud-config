@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb
-    username: '{cipher}AQCz87mtboxsaLKrS1kGNwmGWkm7k/M6Qv7o1PuKFZkna7nG7UmTR/2igE61eSuh5UsnVl/DReIMeqUiu269qGnzPGL8MDGACC9NY8QjMzK5Wg8D7aL78vcFJoFG2KmkVR9fYev6LRx59aYd/4LTQNHN377I9/8BPHsFeaowkJdick/LnJwxfDZr3Id2wwdUfhXx0SRQkZuYh1yZWvLuPc5QJy/HZOeZqXyyVup8rMetqvtI6v5z7JOVDqco6S1y+R5r4cUpl7sVOyHaSaADT31MSpdTVi9jqFRZc/+3qUWcF8UcTn5PLFNTx2RqTNtZBWfj1fyniyhN7IifzDpBhpp9d0EgynW7/bsBk98uYEpIOEnpl0RyJwdyYRFD/Km4sE8='
-    password:
+    url: jdbc:mysql://localhost:3308/msadb?userSSL=false&serverTimezone=UTC
+    username: '{cipher}AQBaTLQiW7R2bidv1qAM//MzMu4N5oYA4tU0EKf8MoOreKOJ78hSlhO3VCnYRznpWkQbM6xhfX9O4njk/WhflehK7UQunlo1jyNNkhXrt0htc0quhbzotyQOiZWzRKEXDNxCMmNt9qqkSrJvC4zjN17MdvIeqr6t522GEljDs+InoaKONVdyogQkCjyV06tSiDflSYy/O2IZNkqijEIcM9MBEM+02CUbNqpJ5NtLPm+5AnIeevEapGFMKyPSkOtNshbX2+/SELHBvTvLGCT6mh5QY1M9sB5oU8Md2sd2EsbIpOOJ5/6fncZ5pmg7/a7XSDQtHnqdS+ElFSUZi6k4aTYi0Uz4mXplZOKqCfBmtukYjs8sMgw7OcQIjbzHzuZV2As='
+    password: '{cipher}AQBaTLQiW7R2bidv1qAM//MzMu4N5oYA4tU0EKf8MoOreKOJ78hSlhO3VCnYRznpWkQbM6xhfX9O4njk/WhflehK7UQunlo1jyNNkhXrt0htc0quhbzotyQOiZWzRKEXDNxCMmNt9qqkSrJvC4zjN17MdvIeqr6t522GEljDs+InoaKONVdyogQkCjyV06tSiDflSYy/O2IZNkqijEIcM9MBEM+02CUbNqpJ5NtLPm+5AnIeevEapGFMKyPSkOtNshbX2+/SELHBvTvLGCT6mh5QY1M9sB5oU8Md2sd2EsbIpOOJ5/6fncZ5pmg7/a7XSDQtHnqdS+ElFSUZi6k4aTYi0Uz4mXplZOKqCfBmtukYjs8sMgw7OcQIjbzHzuZV2As='
     driver-class-name: org.h2.Driver
 
 token:
@@ -10,4 +10,4 @@ token:
   secret: '{cipher}AQDAZUD4mlUcI6J0mFsjTK81zg12paICfmU5a/4gsIkatsb1oSm4Oyat9yM4haQDchOQF4/VGp842FLbJG/MhW2OMIwwDRCW/kbisPgXM3mM497LHkBfTLdiQrh+oG05OLBWtq5kRIFm8ImJ7gpGfcXOXL5MinhdY4rvDF2LjRO5PtuSOHl4FLBqsLN7Bwviq66aXt99rhlOJbwGuaerixd2tlvWPUKSpm3TD/N1nue6guXtcjWx6MefKSgxRZftMfz7w8y06Wm7QcZm3NY8VJAu5smzwitJ+T6XdgJa7GSWAxzRcTjD6N79CBlfUQOW73N/T3nymutEYLLGxwVRA4e2qWRaTn3vBNofuws31UGcvFcl6A7VfH2nXS4syoKF8NQ='
 
 order_service:
-  url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://order-service/order-service/%s/orders
